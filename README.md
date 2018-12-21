@@ -1,7 +1,8 @@
 # FTPManager
 Manage FTP Easily
 
-```try {
+```
+try {
   $ftp = new FTPManager([
       'host' => 'IP_ADRESİ',
       'username' => 'USER_NAME',
@@ -36,3 +37,4 @@ Manage FTP Easily
 } catch (FTPException $e){
     echo $e->getMessage();
 }
+```
