@@ -3,6 +3,7 @@ Manage FTP Easily
 
 ```
 try {
+
   $ftp = new FTPManager([
       'host' => 'IP_ADRESİ',
       'username' => 'USER_NAME',
@@ -34,6 +35,7 @@ try {
   
   // dosyayı okumak için
   $ftp->read('remotedosya.php');
+  
 } catch (FTPException $e){
     echo $e->getMessage();
 }
