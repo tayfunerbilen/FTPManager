@@ -1,0 +1,16 @@
+{
+  "name": "tayfunerbilen/ftpmanager",
+  "description": "Manage your FTP easily with PHP",
+  "keywords": ["ftp", "file transfer protocol"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "tayfunerbilen",
+      "email": "tayfunerbilen@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-curl": "*"
+  }
+}
